@@ -17,7 +17,7 @@ var gifPage = {
 	buttonClicked: function(){
 		$(document).on("click", ".buttons", function(){
 			var animal = $(this).data("name");
-			var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=dc6zaTOxFJmzC&limit=10";
+			var queryURL = "https://crossorigin.me/http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=dc6zaTOxFJmzC&limit=10";
 
 			$.ajax({
 				url: queryURL,
