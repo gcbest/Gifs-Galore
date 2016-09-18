@@ -1,5 +1,5 @@
 var gifPage = {
-	listOfAnimals: ["dog", "cat", "rooster", "chicken", "anaconda"],
+	listOfAnimals: ["dog", "cat", "rooster", "chicken"],
 	createButton: function(){
 		for(var i=0; i < this.listOfAnimals.length; i++){
 			// var animalDiv = $("<div>");
@@ -51,6 +51,9 @@ var gifPage = {
 		// this.createButton();
 		$(".buttonArea").empty();
 		gifPage.createButton();
+
+		// Reset the input box to blank
+		$("#animal-input").val("");
 		
 		// We have this line so that users can hit "enter" instead of clicking on ht button and it won't move to the next page
 		return false;
