@@ -9,7 +9,7 @@ Enter a word in the search box on the right to add a new button to the page.  Cl
 ### Online Demo
 You can test a fully working live demo at
 
-[https://the-friend-finder.herokuapp.com](https://the-friend-finder.herokuapp.com)
+[https://gifs-galore.herokuapp.com/](https://gifs-galore.herokuapp.com/)
 
 ## Technology Used
  ![](http://williamavasquez.herokuapp.com/img/js.png)
