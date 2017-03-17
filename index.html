@@ -52,27 +52,4 @@
 
 <script src="assets/site.js"></script>
 
-<!-- Alert when video finished recording -->
-<script>
-ZiggeoApi.Events.on("submitted", function (data) {
-    alert("The video with token " + data.video.token + " has been submitted!");
-});
-</script>
-
-<!-- Play videos code -->
-<script>
-    ZiggeoApi.Videos.source('')
-</script>
-
-<!-- Use Javascript on the client-side to dynamically display videos using e.g. JQuery. -->
-
-<script>
-    ZiggeoApi.Videos.index({}, {
-        success: function (args, videos) {
-            for (var i = 0; i < videos.length; ++i)
-                $("body").append("<ziggeo ziggeo-video='" + videos[i].token + "'></ziggeo>");
-        }
-    });
-</script>
-
 </html>
